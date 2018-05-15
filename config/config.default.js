@@ -7,7 +7,7 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1526286450227_5355';
 
   // add your config here
-  config.middleware = [];
+  config.middleware = [ 'graphql' ];
 
   return config;
 };

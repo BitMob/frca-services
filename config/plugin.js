@@ -6,3 +6,9 @@ exports.mysql = {
   enable: true,
   package: 'egg-mysql',
 };
+
+exports.graphql = {
+  router: '/graphql',
+  enable: true,
+  package: 'egg-graphql',
+};

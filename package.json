@@ -4,9 +4,12 @@
   "description": "blah",
   "private": true,
   "dependencies": {
+    "dataloader": "^1.4.0",
     "egg": "^2.2.1",
+    "egg-graphql": "^2.1.0",
     "egg-mysql": "^3.0.0",
-    "egg-scripts": "^2.5.0"
+    "egg-scripts": "^2.5.0",
+    "graphql": "^0.13.2"
   },
   "devDependencies": {
     "autod": "^3.0.1",

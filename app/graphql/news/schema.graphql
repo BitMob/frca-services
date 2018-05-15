@@ -1,0 +1,9 @@
+type News {
+    id: ID!
+    title: String!
+    content: String!
+}
+
+type Query {
+    news(id: ID!): News
+}
