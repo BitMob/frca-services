@@ -1,9 +1,9 @@
 type News {
-    id: ID!
-    title: String!
-    content: String!
+  id: ID!
+  title: String!
+  content: String!
 }
 
 type Query {
-    news(id: ID!): News
+  news(id: ID!): News
 }
