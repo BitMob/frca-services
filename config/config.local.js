@@ -8,3 +8,7 @@ exports.mysql = {
     database: 'frca',
   },
 };
+
+exports.security = {
+  csrf: false,
+};
