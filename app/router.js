@@ -6,4 +6,5 @@
 module.exports = app => {
   const { router, controller } = app;
   router.resources('/api/news', controller.news);
+  router.resources('/api/lineup', controller.lineup);
 };
